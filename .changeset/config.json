@@ -1,0 +1,15 @@
+{
+	"$schema": "https://unpkg.com/@changesets/config@1.6.0/schema.json",
+	"changelog": [
+		"@changesets/changelog-github",
+		{ "repo": "dataflowplus/trueprofile-app" }
+	],
+	"commit": false,
+	"linked": [],
+	"access": "restricted",
+	"baseBranch": "main",
+	"updateInternalDependencies": "minor",
+	"___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
+		"onlyUpdatePeerDependentsWhenOutOfRange": true
+	}
+}
