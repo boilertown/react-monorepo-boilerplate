@@ -1,0 +1,9 @@
+{
+	"extends": "@boilertowns/tsconfig/dashboard.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"*": ["src/*"]
+		}
+	}
+}

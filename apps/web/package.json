@@ -1,0 +1,11 @@
+{
+	"name": "@boilertowns/web",
+	"version": "0.0.0",
+	"private": true,
+	"devDependencies": {
+		"@boilertowns/tsconfig": "*"
+	},
+	"engines": {
+		"node": ">=16"
+	}
+}

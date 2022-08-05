@@ -2,6 +2,7 @@
 	"recommendations": [
 		"esbenp.prettier-vscode",
 		"dbaeumer.vscode-eslint",
-		"ms-playwright.playwright"
+		"ms-playwright.playwright",
+		"mikestead.dotenv"
 	]
 }

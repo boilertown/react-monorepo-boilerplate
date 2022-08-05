@@ -1,0 +1,9 @@
+{
+	"extends": "@boilertowns/tsconfig/web.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"*": ["src/*"]
+		}
+	}
+}

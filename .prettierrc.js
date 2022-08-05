@@ -13,17 +13,36 @@ module.exports = {
 	importOrderSeparation: false,
 	importOrderSortSpecifiers: true,
 	importOrderCaseInsensitive: true,
-	importOrder: [
-		'^stores/(.*)$',
-		'^services/(.*)$',
-		'^resolvers/(.*)$',
-		'^hooks/(.*)$',
-		'^helpers/(.*)$',
-		'^types/(.*)$',
-		'^constants/(.*)$',
-		'^pages/(.*)$',
-		'^components/(.*)$',
-		'^[./]',
-		'^assets/(.*)$',
+	overrides: [
+		{
+			files: ['apps/member/src/**/*.[jt]s?(x)'],
+			options: {
+				importOrder: [
+					'^stores/(.*)$',
+					'^services/(.*)$',
+					'^resolvers/(.*)$',
+					'^hooks/(.*)$',
+					'^helpers/(.*)$',
+					'^types/(.*)$',
+					'^constants/(.*)$',
+					'^pages/(.*)$',
+					'^components/(.*)$',
+					'^[./]',
+					'^assets/(.*)$',
+				],
+			},
+		},
+		{
+			files: ['packages/ui/**/*.[jt]s?(x)'],
+			options: {
+				importOrder: [
+					'^helpers/(.*)$',
+					'^constants/(.*)$',
+					'^icons/(.*)$',
+					'^components/(.*)$',
+					'^[./]',
+				],
+			},
+		},
 	],
 };

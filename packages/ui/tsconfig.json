@@ -1,0 +1,9 @@
+{
+	"extends": "@boilertowns/tsconfig/ui.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"*": ["src/*"]
+		}
+	}
+}

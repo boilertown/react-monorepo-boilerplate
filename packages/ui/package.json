@@ -1,0 +1,17 @@
+{
+	"name": "@boilertowns/ui",
+	"version": "0.0.0",
+	"private": true,
+	"devDependencies": {
+		"@boilertowns/tsconfig": "*"
+	},
+	"peerDependencies": {
+		"@emotion/react": "^11.0.0",
+		"@emotion/styled": "^11.0.0",
+		"react": "^16.8.0 || ^17 || ^18",
+		"react-dom": "^16.8.0 || ^17 || ^18"
+	},
+	"engines": {
+		"node": ">=16"
+	}
+}
