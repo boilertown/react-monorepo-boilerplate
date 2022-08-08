@@ -15,7 +15,7 @@ module.exports = {
 	importOrderCaseInsensitive: true,
 	overrides: [
 		{
-			files: ['apps/web/src/**/*.[jt]s?(x)'],
+			files: ['apps/**/*.[jt]s?(x)'],
 			options: {
 				importOrder: [
 					'^stores/(.*)$',
@@ -33,12 +33,11 @@ module.exports = {
 			},
 		},
 		{
-			files: ['packages/ui/**/*.[jt]s?(x)'],
+			files: ['packages/**/*.[jt]s?(x)'],
 			options: {
 				importOrder: [
 					'^helpers/(.*)$',
 					'^constants/(.*)$',
-					'^icons/(.*)$',
 					'^components/(.*)$',
 					'^[./]',
 				],
