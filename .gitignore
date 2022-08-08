@@ -1,7 +1,13 @@
 # dependencies
 node_modules
+.pnp
+.pnp.js
+
+# production
 build
 dist
+.next
+out
 storybook-static
 
 # e2e
@@ -19,5 +25,13 @@ yarn-error.log*
 .env
 .DS_Store
 .turbo
+.pem
 
 coverage
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

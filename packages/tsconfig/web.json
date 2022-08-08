@@ -3,10 +3,12 @@
 	"extends": "./base.json",
 	"compilerOptions": {
 		"target": "es5",
+		"lib": ["dom", "dom.iterable", "esnext"],
 		"moduleResolution": "node",
 		"skipLibCheck": true,
 		"isolatedModules": true,
 		"useUnknownInCatchVariables": false,
-		"allowJs": false
+		"allowJs": true,
+		"noPropertyAccessFromIndexSignature": false
 	}
 }

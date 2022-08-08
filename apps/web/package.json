@@ -2,8 +2,23 @@
 	"name": "@boilertowns-example/web",
 	"version": "0.0.0",
 	"private": true,
+	"scripts": {
+		"build": "next build",
+		"dev": "next dev",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@boilertowns-example/ui": "*",
+		"@emotion/react": "^11.10.0",
+		"@emotion/styled": "^11.10.0",
+		"next": "^12.2.4",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
 	"devDependencies": {
-		"@boilertowns-example/tsconfig": "*"
+		"@babel/core": "^7.18.10",
+		"@boilertowns-example/tsconfig": "*",
+		"next-transpile-modules": "^9.0.0"
 	},
 	"engines": {
 		"node": ">=16"

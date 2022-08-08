@@ -4,6 +4,12 @@
 		"baseUrl": ".",
 		"paths": {
 			"*": ["src/*"]
-		}
-	}
+		},
+		"noEmit": true,
+		"incremental": true,
+		"resolveJsonModule": true,
+		"jsx": "preserve"
+	},
+	"include": ["src", "next-env.d.ts"],
+	"exclude": ["node_modules"]
 }

@@ -15,7 +15,7 @@ module.exports = {
 	importOrderCaseInsensitive: true,
 	overrides: [
 		{
-			files: ['apps/member/src/**/*.[jt]s?(x)'],
+			files: ['apps/web/src/**/*.[jt]s?(x)'],
 			options: {
 				importOrder: [
 					'^stores/(.*)$',

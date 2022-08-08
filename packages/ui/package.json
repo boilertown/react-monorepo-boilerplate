@@ -3,6 +3,7 @@
 	"version": "0.0.0",
 	"private": true,
 	"sideEffects": false,
+	"main": "./dist/index.js",
 	"exports": "./dist/index.js",
 	"files": [
 		"dist"
@@ -14,6 +15,9 @@
 		"test": "NODE_ENV=test jest",
 		"test:coverage": "NODE_ENV=test jest --coverage",
 		"test:watch": "NODE_ENV=test jest --watch"
+	},
+	"dependencies": {
+		"@babel/runtime": "^7.18.9"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.18.10",
@@ -64,8 +68,5 @@
 	},
 	"engines": {
 		"node": ">=16"
-	},
-	"dependencies": {
-		"@babel/runtime": "^7.18.9"
 	}
 }
