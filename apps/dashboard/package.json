@@ -1,9 +1,9 @@
 {
-	"name": "@boilertowns/dashboard",
+	"name": "@boilertowns-example/dashboard",
 	"version": "0.0.0",
 	"private": true,
 	"devDependencies": {
-		"@boilertowns/tsconfig": "*"
+		"@boilertowns-example/tsconfig": "*"
 	},
 	"engines": {
 		"node": ">=16"

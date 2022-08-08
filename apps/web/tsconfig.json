@@ -1,5 +1,5 @@
 {
-	"extends": "@boilertowns/tsconfig/web.json",
+	"extends": "@boilertowns-example/tsconfig/web.json",
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {

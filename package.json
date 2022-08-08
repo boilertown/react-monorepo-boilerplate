@@ -1,8 +1,5 @@
 {
-	"name": "boilertowns",
-	"version": "0.0.0",
-	"private": true,
-	"description": "",
+	"name": "@boilertowns-example/react-monorepo-boilerplate",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/boilertowns/react-monorepo-boilerplate.git"
@@ -32,6 +29,11 @@
 		"@commitlint/cli": "^17.0.3",
 		"@commitlint/config-conventional": "^17.0.3",
 		"@trivago/prettier-plugin-sort-imports": "^3.3.0",
+		"@types/jest": "^28.1.6",
+		"@types/node": "^18.6.4",
+		"@types/react": "^18.0.16",
+		"@types/react-dom": "^18.0.6",
+		"@types/webpack-env": "^1.17.0",
 		"@typescript-eslint/eslint-plugin": "^5.32.0",
 		"@typescript-eslint/parser": "^5.32.0",
 		"eslint": "^8.21.0",
@@ -47,8 +49,8 @@
 		"turbo": "^1.4.2",
 		"typescript": "^4.7.4"
 	},
+	"packageManager": "pnpm@7.8.0",
 	"engines": {
 		"node": "^14.17.0 || >=16.0.0"
-	},
-	"packageManager": "pnpm@7.8.0"
+	}
 }

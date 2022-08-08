@@ -30,7 +30,8 @@ This setup is _opinionated_ as it is based on my experience of working with diff
 - E2E testing with [Playwright][playwright-url]
 - Linting with [Eslint][eslint-url] and code formatting with [Prettier][prettier-url]
 - Conventional commit messages with [Commitlint][commitlint-url]
-- Develop and build production with [Babel][babel-url] and [Webpack][webpack-url]
+- Monorepo codebase management with [Turborepo][turbo-url]
+- Automated release with [changesets][changesets-url]
 
 ## Get Started
 
@@ -58,43 +59,15 @@ This setup is _opinionated_ as it is based on my experience of working with diff
 
 ## Development
 
-- Run the app in development environment:
+- Build internal packages and get the repo ready to be developed on:
 
   ```sh
-  pnpm dev
+  pnpm bootstrap
   ```
-
-- Run components unit tests with jest:
-
-  ```sh
-  pnpm test:jest
-  ```
-
-- Run e2e tests with playwright:
-
-  ```sh
-  pnpm test:e2e
-  ```
-
-- Build the app in production mode:
-
-  ```sh
-  pnpm build
-  ```
-
-- Run the app in production mode. It uses static files from `build` folder.
-
-  ```sh
-  pnpm serve
-  ```
-
-## GitHub Actions
-
-This boilerplate uses [GitHub Actions](https://github.com/features/actions) to perform unit test on Pull Request. You can see the details at [pr-test.yml](./.github/workflows/pr-test.yml).
 
 ## Contributing
 
-**react-nostalgia-boilerplate** ❤️ your contributions. If you have any ideas, suggestions, fixes, feel free to contribute.
+**react-monorepo-boilerplate** ❤️ your contributions. If you have any ideas, suggestions, fixes, feel free to contribute.
 
 [boilertowns-url]: https://github.com/boilertowns
 [react-url]: https://beta.reactjs.org
@@ -108,3 +81,5 @@ This boilerplate uses [GitHub Actions](https://github.com/features/actions) to p
 [prettier-url]: https://prettier.io
 [playwright-url]: https://playwright.dev
 [testing-library-url]: https://testing-library.com
+[turbo-url]: https://turborepo.org/
+[changesets-url]: https://github.com/changesets/changesets

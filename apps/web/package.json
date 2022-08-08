@@ -1,9 +1,9 @@
 {
-	"name": "@boilertowns/web",
+	"name": "@boilertowns-example/web",
 	"version": "0.0.0",
 	"private": true,
 	"devDependencies": {
-		"@boilertowns/tsconfig": "*"
+		"@boilertowns-example/tsconfig": "*"
 	},
 	"engines": {
 		"node": ">=16"

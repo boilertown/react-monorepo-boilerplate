@@ -1,5 +1,5 @@
 {
-	"extends": "@boilertowns/tsconfig/dashboard.json",
+	"extends": "@boilertowns-example/tsconfig/dashboard.json",
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {

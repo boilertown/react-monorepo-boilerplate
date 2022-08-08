@@ -2,10 +2,9 @@
 	"$schema": "https://json.schemastore.org/tsconfig",
 	"extends": "./base.json",
 	"compilerOptions": {
+		"lib": ["ES2020", "DOM", "DOM.Iterable"],
 		"moduleResolution": "node",
 		"declaration": true,
 		"isolatedModules": true
-	},
-	"include": ["src", "jest-setup.ts"],
-	"exclude": ["node_modules"]
+	}
 }

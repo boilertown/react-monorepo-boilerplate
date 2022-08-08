@@ -10,22 +10,13 @@ import pkg from './package.json';
 
 export default {
 	input: 'src/index.tsx',
-	output: [
-		{
-			format: 'cjs',
-			dir: 'dist/cjs',
-			preserveModules: true,
-			preserveModulesRoot: 'src',
-			exports: 'named',
-		},
-		{
-			format: 'es',
-			dir: 'dist/esm',
-			preserveModules: true,
-			preserveModulesRoot: 'src',
-			exports: 'named',
-		},
-	],
+	output: {
+		format: 'es',
+		dir: 'dist',
+		preserveModules: true,
+		preserveModulesRoot: 'src',
+		exports: 'named',
+	},
 	external: [
 		...Object.keys(pkg.dependencies || {}),
 		...Object.keys(pkg.peerDependencies || {}),
