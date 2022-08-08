@@ -1,0 +1,19 @@
+.figure {
+	text-align: center;
+}
+
+.figcaption {
+	color: #9ca3af;
+	text-align: center;
+	font-size: 11px;
+}
+
+.figcaption a {
+	color: #9ca3af;
+	text-decoration: underline;
+}
+
+.heading {
+	text-align: center;
+	margin: 24px 0;
+}

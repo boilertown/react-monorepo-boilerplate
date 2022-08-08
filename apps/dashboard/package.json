@@ -1,0 +1,51 @@
+{
+	"name": "@boilertowns-example/dashboard",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"build": "webpack --config webpack/webpack.prod.js",
+		"dev": "webpack serve --config webpack/webpack.dev.js --port 2022"
+	},
+	"browserslist": [
+		"defaults",
+		"not dead",
+		"not ie 11",
+		"not op_mini all"
+	],
+	"dependencies": {
+		"@babel/runtime": "^7.18.9",
+		"@boilertowns-example/ui": "*",
+		"@emotion/react": "^11.10.0",
+		"@emotion/styled": "^11.10.0",
+		"core-js": "^3.24.1",
+		"dayjs": "^1.11.4",
+		"history": "^5.3.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-helmet-async": "^1.3.0",
+		"react-router-dom": "^6.3.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.18.10",
+		"@babel/plugin-transform-runtime": "^7.18.10",
+		"@babel/preset-env": "^7.18.10",
+		"@babel/preset-react": "^7.18.6",
+		"@babel/preset-typescript": "^7.18.6",
+		"@boilertowns-example/tsconfig": "*",
+		"babel-loader": "^8.2.5",
+		"copy-webpack-plugin": "^11.0.0",
+		"css-minimizer-webpack-plugin": "^4.0.0",
+		"dotenv": "^16.0.1",
+		"dotenv-webpack": "^8.0.0",
+		"html-webpack-plugin": "^5.5.0",
+		"ts-loader": "^9.3.1",
+		"webpack": "^5.74.0",
+		"webpack-bundle-analyzer": "^4.5.0",
+		"webpack-cli": "^4.10.0",
+		"webpack-dev-server": "^4.9.3",
+		"webpack-merge": "^5.8.0"
+	},
+	"engines": {
+		"node": ">=16"
+	}
+}

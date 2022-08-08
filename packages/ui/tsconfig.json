@@ -1,0 +1,11 @@
+{
+	"extends": "@boilertowns-example/tsconfig/ui.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"*": ["src/*"]
+		}
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}
