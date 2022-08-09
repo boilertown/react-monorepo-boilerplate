@@ -1,12 +1,16 @@
 import Image from 'next/image';
 import styles from './HomeWelcome.module.css';
-import launch_img from 'assets/images/launch.png';
 
 export const HomeWelcome = () => {
 	return (
 		<>
 			<figure className={styles.figure}>
-				<Image src={launch_img} alt="A rocket is being launched" />
+				<Image
+					src="/launch.png"
+					alt="A rocket is being launched"
+					width={200}
+					height={200}
+				/>
 				<figcaption className={styles.figcaption}>
 					Illustration by{' '}
 					<a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">

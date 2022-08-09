@@ -3,13 +3,14 @@
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
-			"*": ["src/*"]
+			"@assets/*": ["assets/*"],
+			"@components/*": ["components/*"]
 		},
 		"noEmit": true,
 		"incremental": true,
 		"resolveJsonModule": true,
 		"jsx": "preserve"
 	},
-	"include": ["src", "next-env.d.ts"],
+	"include": ["next-env.d.ts", "**/*.d.ts", "**/*.ts", "**/*.tsx"],
 	"exclude": ["node_modules"]
 }
