@@ -14,7 +14,7 @@
 		"not op_mini all"
 	],
 	"dependencies": {
-		"@boilertowns-example/ui": "*",
+		"@boilertowns-example/ui": "workspace:*",
 		"@emotion/react": "^11.10.0",
 		"@emotion/styled": "^11.10.0",
 		"next": "^12.2.4",
@@ -23,7 +23,7 @@
 	},
 	"devDependencies": {
 		"@babel/core": "^7.18.10",
-		"@boilertowns-example/tsconfig": "*",
+		"@boilertowns-example/tsconfig": "workspace:*",
 		"next-transpile-modules": "^9.0.0"
 	},
 	"engines": {
