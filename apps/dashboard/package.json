@@ -14,7 +14,7 @@
 	],
 	"dependencies": {
 		"@babel/runtime": "^7.18.9",
-		"@boilertowns-example/ui": "*",
+		"@boilertowns-example/ui": "workspace:*",
 		"@emotion/react": "^11.10.0",
 		"@emotion/styled": "^11.10.0",
 		"core-js": "^3.24.1",
@@ -31,7 +31,7 @@
 		"@babel/preset-env": "^7.18.10",
 		"@babel/preset-react": "^7.18.6",
 		"@babel/preset-typescript": "^7.18.6",
-		"@boilertowns-example/tsconfig": "*",
+		"@boilertowns-example/tsconfig": "workspace:*",
 		"babel-loader": "^8.2.5",
 		"copy-webpack-plugin": "^11.0.0",
 		"css-minimizer-webpack-plugin": "^4.0.0",
