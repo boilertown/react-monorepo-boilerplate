@@ -27,7 +27,6 @@ This setup is _opinionated_ as it is based on my experience of working with diff
 - [TypeScript][typescript-url]
 - UI development with [Storybook][storybook-url]
 - Unit test with [Testing-library][testing-library-url]
-- E2E testing with [Playwright][playwright-url]
 - Linting with [Eslint][eslint-url] and code formatting with [Prettier][prettier-url]
 - Conventional commit messages with [Commitlint][commitlint-url]
 - Monorepo codebase management with [Turborepo][turbo-url]
@@ -59,10 +58,26 @@ This setup is _opinionated_ as it is based on my experience of working with diff
 
 ## Development
 
-- Build internal packages and get the repo ready to be developed on:
+- Bootstrap project and get the repo ready to be developed on:
 
   ```sh
-  pnpm bootstrap
+  # Run build commands from all workspaces.
+  pnpm build
+
+  # or build internal packages from `packages/*` workspace only.
+  pnpm build:packages
+  ```
+
+- Run the `apps/*` in development environment:
+
+  ```sh
+  pnpm dev
+  ```
+
+- Run all test commands from all workspaces:
+
+  ```sh
+  pnpm test
   ```
 
 ## Contributing
@@ -79,7 +94,6 @@ This setup is _opinionated_ as it is based on my experience of working with diff
 [eslint-url]: https://eslint.org
 [commitlint-url]: https://github.com/conventional-changelog/commitlint
 [prettier-url]: https://prettier.io
-[playwright-url]: https://playwright.dev
 [testing-library-url]: https://testing-library.com
 [turbo-url]: https://turborepo.org/
 [changesets-url]: https://github.com/changesets/changesets
