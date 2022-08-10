@@ -1,6 +1,6 @@
 {
 	"name": "@boilertowns-example/dashboard",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"private": true,
 	"scripts": {
 		"build": "webpack --config webpack/webpack.prod.js",
