@@ -38,13 +38,13 @@ This setup is _opinionated_ as it is based on my experience of working with diff
 
   ```sh
   # npm
-  npm init boilertowns -- -b react-monorepo-boilerplate
+  npm create boilertowns@latest -- -b react-monorepo-boilerplate
 
   # yarn
   yarn create boilertowns -b react-monorepo-boilerplate
 
   # pnpm
-  pnpm dlx create-boilertowns -b react-monorepo-boilerplate
+  pnpm create boilertowns -b react-monorepo-boilerplate
 
   # bun
   bun create boilertowns/react-monorepo-boilerplate [project-name]
