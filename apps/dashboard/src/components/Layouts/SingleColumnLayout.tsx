@@ -1,4 +1,4 @@
-import * as Sc from './SingleColumnLayout.styled';
+import { Container } from '@boilertowns-example/ui';
 
 interface SingleColumnLayoutProps {
 	renderHeader: React.ReactNode;
@@ -14,7 +14,7 @@ export const SingleColumnLayout = (props: SingleColumnLayoutProps) => {
 		<>
 			<header>{props.renderHeader}</header>
 			<main>
-				<Sc.Container>{props.renderMain}</Sc.Container>
+				<Container>{props.renderMain}</Container>
 			</main>
 			<footer>{props.renderFooter}</footer>
 		</>
