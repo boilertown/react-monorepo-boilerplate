@@ -22,7 +22,7 @@
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.19.1",
+		"@babel/core": "^7.19.3",
 		"@boilertowns-example/tsconfig": "workspace:*",
 		"next-transpile-modules": "^9.0.0"
 	},
