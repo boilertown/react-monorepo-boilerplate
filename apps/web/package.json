@@ -15,14 +15,14 @@
 	],
 	"dependencies": {
 		"@boilertowns-example/ui": "workspace:*",
-		"@emotion/react": "^11.10.4",
-		"@emotion/styled": "^11.10.4",
+		"@emotion/react": "^11.10.5",
+		"@emotion/styled": "^11.10.5",
 		"next": "^12.3.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.19.3",
+		"@babel/core": "^7.19.6",
 		"@boilertowns-example/tsconfig": "workspace:*",
 		"next-transpile-modules": "^9.1.0"
 	},
