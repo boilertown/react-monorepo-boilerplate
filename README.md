@@ -7,19 +7,6 @@
   <img src="https://img.shields.io/github/license/boilertowns/react-monorepo-boilerplate?style=flat-square" alt="MIT license" >
 </div>
 
-## Introduction
-
-**react-monorepo-boilerplate** is the first production-ready boilerplate from [Boilertowns][boilertowns-url] creations.
-
-The goal of this boilerplate is to maximize your effectiveness by present you:
-
-- 🚀 A good application structure which is simple, scalable and easy to maintain.
-- 🔥 Give you best and hot tools in the ecosystem to manage the workflows.
-- ⚡️ Easy to customize your workflows. You will have all the granular control over all the operations.
-- 🧑‍💻 Improve your Developer eXperience (DX). You can just focus on coding and press Save button.
-
-This setup is _opinionated_ as it is based on my experience of working with difference React projects. It works very well to me and my team and I hope I can make you feel the same.
-
 ## The Setup
 
 - [React v18][react-url]
