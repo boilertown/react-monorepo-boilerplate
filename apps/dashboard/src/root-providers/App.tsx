@@ -2,7 +2,7 @@ import dayjs from 'dayjs';
 import calendar from 'dayjs/plugin/calendar';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import utc from 'dayjs/plugin/utc';
-import { RootRouter } from 'router';
+import { RootRouter } from 'routes';
 
 dayjs.extend(customParseFormat);
 dayjs.extend(calendar);
