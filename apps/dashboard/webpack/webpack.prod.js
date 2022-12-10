@@ -34,6 +34,9 @@ module.exports = merge(webpackBaseConfig, {
 		clean: true,
 	},
 	optimization: {
+		splitChunks: {
+			chunks: 'all',
+		},
 		minimize: true,
 		minimizer: [
 			new TerserPlugin({
